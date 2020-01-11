@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.7)  11 JAN 2020 19:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.7)  11 JAN 2020 19:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -211,12 +211,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 30.
 
-Overfull \hbox (7.63078pt too wide) in paragraph at lines 49--49
-[]\OT1/cmr/bx/n/17.28 Profil Sch^^?uler der 10. Klasse an der Munich Internatio
-nal
- []
-
-
 Overfull \hbox (15.70676pt too wide) in paragraph at lines 49--49
 \OT1/cmr/bx/n/17.28 School; angestrebter abschluss: Internation Baccalaureate
  []
@@ -259,7 +253,7 @@ b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti12.pfb>
-Output written on DLR.pdf (2 pages, 71970 bytes).
+Output written on DLR.pdf (2 pages, 71972 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
