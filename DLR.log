@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.7)  11 JAN 2020 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.7)  11 JAN 2020 19:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -210,17 +210,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 30.
- [1
+
+Overfull \hbox (14.14183pt too wide) in paragraph at lines 50--53
+[]\OT1/cmr/m/n/12 (-20) Schulischer Schwerpunkt in Mathematik und Physik mit Ku
+rsen in []\OT1/cmr/m/it/12 (-20) Advanced Mathematics\
+ []
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 132.
+(Font)              <12> on input line 129.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 132.
+(Font)              <8> on input line 129.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 132.
+(Font)              <6> on input line 129.
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--142
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
 
  []
 
@@ -232,7 +238,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--142
 Here is how much of TeX's memory you used:
  3965 strings out of 492167
  57761 string characters out of 6131558
- 183082 words of memory out of 5000000
+ 182082 words of memory out of 5000000
  8300 multiletter control sequences out of 15000+600000
  10183 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -242,7 +248,7 @@ b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti12.pfb>
-Output written on DLR.pdf (2 pages, 72095 bytes).
+Output written on DLR.pdf (2 pages, 72489 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
