@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.7)  11 JAN 2020 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.7)  11 JAN 2020 19:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -211,7 +211,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 30.
 
-Overfull \hbox (14.14183pt too wide) in paragraph at lines 50--53
+Overfull \hbox (7.63078pt too wide) in paragraph at lines 49--49
+[]\OT1/cmr/bx/n/17.28 Profil Sch^^?uler der 10. Klasse an der Munich Internatio
+nal
+ []
+
+
+Overfull \hbox (15.70676pt too wide) in paragraph at lines 49--49
+\OT1/cmr/bx/n/17.28 School; angestrebter abschluss: Internation Baccalaureate
+ []
+
+
+Overfull \hbox (14.14183pt too wide) in paragraph at lines 53--55
 []\OT1/cmr/m/n/12 (-20) Schulischer Schwerpunkt in Mathematik und Physik mit Ku
 rsen in []\OT1/cmr/m/it/12 (-20) Advanced Mathematics\
  []
@@ -220,13 +231,13 @@ rsen in []\OT1/cmr/m/it/12 (-20) Advanced Mathematics\
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 120.
+(Font)              <12> on input line 121.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 120.
+(Font)              <8> on input line 121.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 120.
+(Font)              <6> on input line 121.
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--130
+Underfull \hbox (badness 10000) in paragraph at lines 128--131
 
  []
 
@@ -236,11 +247,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--130
 ### simple group (level 1) entered at line 43 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3967 strings out of 492167
- 57777 string characters out of 6131558
+ 3963 strings out of 492167
+ 57747 string characters out of 6131558
  182082 words of memory out of 5000000
  8300 multiletter control sequences out of 15000+600000
- 10232 words of font info for 48 fonts, out of 8000000 for 9000
+ 10074 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  33i,7n,42p,480b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
@@ -248,7 +259,7 @@ b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti12.pfb>
-Output written on DLR.pdf (2 pages, 72387 bytes).
+Output written on DLR.pdf (2 pages, 71970 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
