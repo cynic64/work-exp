@@ -1,19 +1,33 @@
 \documentclass[12pt]{article}
 
-\usepackage[margin=1.0in]{geometry}
+\newdimen\mymargin
+\setlength{\mymargin}{1.0in}
+
+\usepackage[margin=\mymargin]{geometry}
 \usepackage{xcolor}
 \usepackage{ulem}
 \usepackage{microtype}
 \usepackage{babel}
+\usepackage{tabularx}
 
 % title
-\title{\vspace{-96pt} \Huge Lebenslauf}
-\author{\Huge Nicholas Schweitzer \vspace{-32pt}}
+\title{\vspace{-96pt}\Huge Lebenslauf}
+\author{\Huge Nicholas Schweitzer}
 \date{}
 
 % link and section macros
 \newcommand{\link}[1]{{\color{blue}\underline{#1}}}
-\newcommand{\sect}[1]{\vspace{-12pt}\section*{#1}\vspace{-12pt}}
+\newcommand{\sect}[1]{
+  {
+    \vspace{6pt}
+    \section*{
+      \fontsize{18}{0}\selectfont
+      \hspace{-12pt}
+      \vspace{-12pt}
+      #1
+    }
+  }
+}
 
 % page formatting options
 \setlength\parindent{0pt}
@@ -28,6 +42,7 @@
 % main document
 \begin{document}
 \maketitle
+\vspace{-32pt}
 
 % \section*{Motivation}
 % Ich bin Sch{\"u}ler in die 10. Klasse und bin in ein Praktikum bei DLR entweder in Oberpfaffenhofen oder Weilheim im Bereich von Aerodynamik und Raumfahrt interessiert. Technologie, Physik und Mathematik fand ich immer interessant und ich hoffe durch ein Praktikum bei DLR mein Wissen zu erweitern und praktische Erfahrung zu gewinnen sowie mit anderen {\"u}ber meine Interessen reden.
@@ -40,112 +55,116 @@
 \sep
 \textbf{Handy / Festnetz} \hfill{0176 8053 1248 / 08171 238 1130} \, \\
 \sep
-\textbf{Adresse} \hfill{Am Haken 2, 82538 Geretsried \, \\
-  \sep
+\textbf{Adresse} \hfill{Am Haken 2, 82538 Geretsried \, }\\
+\sep
 
-  \sect{Profil \\
-    Sch{\"u}ler der 10. Klasse an der Munich International School; angestrebter
-    abschluss: Internation Baccalaureate im Juni 2022
-  }
-  \begin{itemize}
-    \itemsep3pt
+\sect{Profil}
 
-  \item Schulischer Schwerpunkt in Mathematik und Physik mit Kursen in \textit{\glqq
-    Advanced Mathematics\grqq} und \textit{\glqq Extended Science\grqq}
+\textbf{Sch{\"u}ler der 10. Klasse an der Munich International School; angestrebter
+  abschluss: International Baccalaureate im Juni 2022}
 
-  \item Programmieren seit 7 Jahren als Hobby mit fortgeschrittenen Kentnissen in
-    Python und Rust
+\begin{itemize}
+  \itemsep0pt
 
-  \item Musik und Sport: Gitarre seit 10 Jahren als intensives Hobby,
-    Tischtennis Vereinsspieler
+\item Schulischer Schwerpunkt in Mathematik und Physik mit Kursen in \textit{\glqq
+  Advanced Mathematics\grqq} und \textit{\glqq Extended Science\grqq}
 
-  \item Sonstige Interessen: Freiwillige Feuerwehr und Sportklettern
+\item Programmieren seit 7 Jahren als Hobby mit fortgeschrittenen Kentnissen in
+  Python und Rust
 
-  \end{itemize}
-  \vspace{-12pt}
+\item Musik und Sport: Gitarre seit 10 Jahren als intensives Hobby,
+  Tischtennis Vereinsspieler
 
-  \sect{Schullaufbahn}
+\item Sonstige Interessen: Freiwillige Feuerwehr und Sportklettern
 
-  \textbf{Seit August 2014: \\
-    Middle und Senior School der Munich International School
-  }
+\end{itemize}
+\vspace{-24pt}
 
-  \vspace{-10pt}
-  \begin{itemize}
-    \itemsep3pt
-  \item Fachliche Schwerpunkte und zus{\"a}tzliche Kurse: \glqq Advanced
-    Math\grqq: Fortgeschrittene Mathematik und \glqq Science Extension\grqq:
-    erweiterte Physik, Chemie und Biologie, 3 Stunden pro Woche, Musk, 3 Stunden
-    pro Woche
+\sect{Schullaufbahn}
+\vspace{6pt}
 
-  \item \glqq Head of School's List\grqq \,in die 5., 6., 7., 8. und 9. Klasse
+\hspace{-\mymargin}\begin{tabularx}{\paperwidth}{p{\dimexpr0.12\linewidth}|p{\linewidth}}
+  \textbf{Seit 2014} & \textbf{Middle und Senior School der Munich International School} \\
+
+  & \parbox{\linewidth}{
+    \vspace{6pt}      % I don't know why \parskip doesn't work here
+
+    Fachliche Schwerpunkte und zus{\"a}tzliche Kurse: \glqq Advanced Math\grqq\,
+    (Fortgeschrittene Mathematik), \glqq Science Extension\grqq\, (erweiterte
+    Physik, Chemie und Biologie, 3 Stunden pro Woche) und Musik, 3 Stunden pro
+    Woche
+    \vspace{6pt}      % I don't know why \parskip doesn't work here
+    
+    \glqq Head of School's List\grqq \,in die 5., 6., 7., 8. und 9. Klasse
     (Auszeichnung f{\"u}r die Jahrgangsbesten mit einer Durchscnittsnote von
     mindestens 6,5 auf einer Skala von 0 bis 7)
-
-  \item Schuljahrbegleitendes \textit{\glqq Personal project\grqq}:
-    Programmieren einen 3D-Renderer in Rust. \ask{More description meaning more
-      about the PP itself or my renderer?} \ask{give it some flavor}
-
-  \item Programmierung einer Live-Demonstration f{\"u}r eine Veranstaltung mit
+    \vspace{6pt}      % I don't know why \parskip doesn't work here
+    
+    Schuljahrbegleitendes \textit{\glqq Personal project\grqq}:
+    Programmieren einen 3D-Renderer in Rust mit Fokus auf effiziente Nutzung des
+    Grafikprozessors und Memory-Safety
+    \vspace{6pt}      % I don't know why \parskip doesn't work here
+    
+    Programmierung einer Live-Demonstration f{\"u}r eine Veranstaltung mit
     Eltern und Sponsoren der Schule: virtuelles bewegungsbesteuertes Instrument
-    (Teilnehmer k{\"o}nnen durch Bewegung vor einem Green-Screen Ton und
+    (Teilnehmer k{\"o}nnten durch Bewegung vor einem Green-Screen Ton und
     Lautst{\"a}rke steuern)
-
-  \end{itemize}
-
-  \textbf{2011 - 2014:
   }
-  \vspace{-10pt}
-  \begin{itemize}
-    \itemsep3pt
-  \item Homeschooling f{\"u}r die 2., 3. und 4. Klasse wegen einen dreijahrigen Segelurlaub mit Eltern
+  \\
+  & \\[-6pt]
+  \hline
+  & \\[-6pt]
+  
+  \textbf{\hbox{2011-2014}} & \textbf{Dreij{\"a}hrige Segelreise von der US Ostk{\"u}ste nach Australien} \\
 
-  \end{itemize}
-  % 6,50; 6,56; 6,56; 6,67; 6,56;
+  & \parbox{\linewidth}{
+    \vspace{6pt}      % I don't know why \parskip doesn't work here
 
-  % \section*{Motivation}
-  %
-  % Ich bin ein Sch{\"u}ler in die 10. Klasse der Munich International School, eine internationale IB-Schule. Meine Interesse in Technologie, Physik und Mathematik, besonders im Bezug auf Aerodynamik und Raumfahrt, hat mit zu DLR gef{\"u}hrt. Ich hoffe durch ein Praktikum in diesen Bereich (Aerodynamik und Raumfahrt) entweder im Oberpfaffenhofen oder Weilheim DLR-Zentrum mein Wissen zu erweitern und praktische Erfahrung zu gewinnen.
+    Homeschooling durch die Eltern an Bord eines Segelbootes (2. - 4. Klasse,
+    ausgew{\"a}hlte Schulprojekte unter \link{namaniatsea.org/nicky-page})
+    \vspace{6pt}      % I don't know why \parskip doesn't work here
 
-  \sect{Kenntnisse}
-  \textbf{Sprachen} \hfill{Deutsch} \\
-  \hspace*{\fill}Englisch, flie{\ss}end \\
-  \hspace*{\fill}Spanisch, 4 Jahren (Phase 3/4) \\
-  \sep
+    Unterstuetzung meiner Eltern bei Navigation und Position-plotting
+  } \\
+\end{tabularx}
 
-  \vspace{\parskip}
+\pagebreak
 
-  \textbf{Programmiersprachen} \\
-  \textit{Sehr gut} \hfill{Python, Rust} \\
-  \sep
-  \textit{Gut} \hfill{C/C++, \LaTeX, Shell (bash/zsh), Lua} \\
-  \sep
-  \textit{Grundkentnisse} \hfill{Lisp, HTML, Perl, Intel-Assembly (NASM)} \\
-  \sep
+\sect{Kenntnisse}
+\textbf{Sprachen} \hfill{Englisch, Muttersprache, und Deutsch, flie{\ss}end} \\
+\hspace*{\fill}Spanisch set 4 Jahren als Fremdsprache \\
+\sep
 
-  \vspace{\parskip}
+\textbf{Programmiersprachen} \\
+\textit{Sehr gut} \hfill{Python, Rust} \\
+\sep
+\textit{Gut} \hfill{C/C++, Shell (bash/zsh), Lua, \LaTeX} \\
+\sep
+\textit{Grundkentnisse} \hfill{Lisp, Perl, Intel-Assembly (NASM), HTML} \\
+\sep
 
-  \textbf{Github-Repos} \hfill{3D-Renderer in Rust (\link{github.com/cynic64/render-engine})} \\
-  \hspace*{\fill} Bewegungsbesteuerter Theremin (\link{github.com/cynic64/theremin}) \\
-  \hspace*{\fill} Window-Manager Konfiguration (\link{github.com/cynic64/awesome-configs}) \\
+{
+  \small
+  \textbf{Github-Repos} \hfill{3D-Renderer, Rust: \link{github.com/cynic64/render-engine}} \\
+  \hspace*{\fill} Bewegungsbesteuerter Theremin, Python: \link{github.com/cynic64/theremin} \\
+  \hspace*{\fill} Window-Manager Konfiguration, Lua:
+  \link{github.com/cynic64/awesome-configs} \\
+}
 
-  \vspace{4pt}
-  \sep
+\sep
 
-  \vspace{\parskip}
+\textbf{Software Anwendungen} \\
+\textit{Sehr gut} \hfill{MS Word, Emacs und Vi Editoren, Blender 3D Modelling Software} \\
+\sep
+\textit{Gut} \hfill{MS Excel, MS PowerPoint, Git, Linux-Administration} \\
+\sep
 
-  \textbf{Software / Platforme} \\
-  \textit{Sehr gut} \hfill{Emacs, Blender, Word} \\
-  \sep
-  \textit{Gut} \hfill{Github, Linux-Administration, Word, Excel, PowerPoint} \\
-  \sep
+\sect{Mitgliedschaften}
 
-  \vspace{\parskip}
-  \sect{Mitgliedschaften}
+\textbf{Seit 2018} \hfill{Freiwillige Feuerwehr Gelting} \\
+\sep
+\textbf{Seit 2017} \hfill{Tischtennis BCF Wolfratshausen} \\
+\sep
+\textbf{Seit 2017} \hfill{Tischtennis SV Gelting}
 
-  \textbf{2018 - } \hfill{Freiwillige Feuerwehr Gelting} \\
-  \sep
-  \textbf{2017 - } \hfill{Tischtennis BCF Wolfratshausen} \\
-  \sep
-  \textbf{2017 - } \hfill{Tischtennis SV Gelting}
 \end{document}

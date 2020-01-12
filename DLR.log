@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.7)  11 JAN 2020 19:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.7)  12 JAN 2020 19:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,6 +22,8 @@ File: size12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+\mymargin=\dimen103
+
 (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
@@ -42,14 +44,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@cnth=\count88
 \Gm@cntv=\count89
 \c@Gm@tempcnt=\count90
-\Gm@bindingoffset=\dimen103
-\Gm@wd@mp=\dimen104
-\Gm@odd@mp=\dimen105
-\Gm@even@mp=\dimen106
-\Gm@layoutwidth=\dimen107
-\Gm@layoutheight=\dimen108
-\Gm@layouthoffset=\dimen109
-\Gm@layoutvoffset=\dimen110
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
 \Gm@dimlist=\toks15
 )
 (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -78,19 +80,19 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \UL@hyphenbox=\box28
 \UL@skip=\skip43
 \UL@hook=\toks16
-\UL@height=\dimen111
+\UL@height=\dimen112
 \UL@pe=\count91
-\UL@pixel=\dimen112
+\UL@pixel=\dimen113
 \ULC@box=\box29
 Package: ulem 2012/05/18
-\ULdepth=\dimen113
+\ULdepth=\dimen114
 )
 (/usr/share/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/10/10 v2.7c Micro-typographical refinements (RS)
 \MT@toks=\toks17
 \MT@count=\count92
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen114
+\MT@outer@kern=\dimen115
 LaTeX Info: Redefining \textmicrotypecontext on input line 1347.
 \MT@listname@count=\count93
 
@@ -121,27 +123,48 @@ Language: nil 2019/10/15 3.35 Nil language
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2019/10/15 3.35 Babel common definitions
 \babel@savecnt=\count94
-\U@D=\dimen115
+\U@D=\dimen116
 
 (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count95
 )
 \l@nil=\language85
-)) (./DLR.aux)
+))
+(/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen117
+\ar@mcellbox=\box30
+\extrarowheight=\dimen118
+\NC@list=\toks18
+\extratabsurround=\skip45
+\backup@length=\skip46
+\ar@cellbox=\box31
+)
+\TX@col@width=\dimen119
+\TX@old@table=\dimen120
+\TX@old@col=\dimen121
+\TX@target=\dimen122
+\TX@delta=\dimen123
+\TX@cols=\count96
+\TX@ftn=\toks19
+) (./DLR.aux)
 \openout1 = `DLR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -179,26 +202,26 @@ LaTeX Font Info:    ... okay on input line 29.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count96
-\scratchdimen=\dimen116
-\scratchbox=\box30
-\nofMPsegments=\count97
-\nofMParguments=\count98
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count99
-\MPscratchDim=\dimen117
-\MPnumerator=\count100
-\makeMPintoPDFobject=\count101
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count97
+\scratchdimen=\dimen124
+\scratchbox=\box32
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen125
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
+\everyMPtoPDFconversion=\toks21
 )
-LaTeX Info: Redefining \microtypecontext on input line 29.
+LaTeX Info: Redefining \microtypecontext on input line 43.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 29.
+LaTeX Info: Redefining \showhyphens on input line 43.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -207,56 +230,75 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 30.
+(Font)              <14.4> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 30.
+(Font)              <7> on input line 44.
 
-Overfull \hbox (15.70676pt too wide) in paragraph at lines 49--49
-\OT1/cmr/bx/n/17.28 School; angestrebter abschluss: Internation Baccalaureate
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 50.
+
+
+Overfull \hbox (7.45747pt too wide) in paragraph at lines 64--65
+[]\OT1/cmr/bx/n/12 Sch^^?uler der 10. Klasse an der Munich International School
+; angestrebter abschluss:
  []
 
 
-Overfull \hbox (14.14183pt too wide) in paragraph at lines 53--55
+Overfull \hbox (14.14183pt too wide) in paragraph at lines 69--71
 []\OT1/cmr/m/n/12 (-20) Schulischer Schwerpunkt in Mathematik und Physik mit Ku
 rsen in []\OT1/cmr/m/it/12 (-20) Advanced Mathematics\
+ []
+
+
+Overfull \hbox (2.1317pt too wide) in paragraph at lines 129--129
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 129--129
+[][] 
+ []
+
+
+Overfull \hbox (72.26999pt too wide) in paragraph at lines 86--130
+[] [] 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 121.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 121.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 121.
+(Font)              <10.95> on input line 148.
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
+Underfull \hbox (badness 10000) in paragraph at lines 148--153
 
  []
 
-[2] (./DLR.aux) )
-(\end occurred inside a group at level 1)
+[2] (./DLR.aux)
 
-### simple group (level 1) entered at line 43 ({)
-### bottom level 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.72pt have occurred.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3963 strings out of 492167
- 57747 string characters out of 6131558
- 182082 words of memory out of 5000000
- 8300 multiletter control sequences out of 15000+600000
- 10074 words of font info for 46 fonts, out of 8000000 for 9000
+ 4075 strings out of 492167
+ 59200 string characters out of 6131558
+ 188043 words of memory out of 5000000
+ 8409 multiletter control sequences out of 15000+600000
+ 11144 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,7n,42p,480b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmti12.pfb>
-Output written on DLR.pdf (2 pages, 71972 bytes).
+ 33i,14n,42p,431b,203s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on DLR.pdf (2 pages, 100573 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 12289 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 14849 words of extra memory for PDF output out of 17280 (max. 10000000)
 
