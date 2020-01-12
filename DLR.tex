@@ -9,6 +9,8 @@
 \usepackage{microtype}
 \usepackage{babel}
 \usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{graphicx}
 
 % title
 \title{\vspace{-96pt}\Huge Lebenslauf}
@@ -19,19 +21,20 @@
 \newcommand{\link}[1]{{\color{blue}\underline{#1}}}
 \newcommand{\sect}[1]{
   {
-    \vspace{6pt}
+    \vspace{12pt}
     \section*{
       \fontsize{18}{0}\selectfont
       \hspace{-12pt}
       \vspace{-12pt}
       #1
     }
+    \vspace{-6pt}
   }
 }
 
 % page formatting options
 \setlength\parindent{0pt}
-\setlength\parskip{6pt}
+\setlength\parskip{7pt}
 \pagenumbering{gobble}
 
 % other commands
@@ -47,29 +50,42 @@
 % \section*{Motivation}
 % Ich bin Sch{\"u}ler in die 10. Klasse und bin in ein Praktikum bei DLR entweder in Oberpfaffenhofen oder Weilheim im Bereich von Aerodynamik und Raumfahrt interessiert. Technologie, Physik und Mathematik fand ich immer interessant und ich hoffe durch ein Praktikum bei DLR mein Wissen zu erweitern und praktische Erfahrung zu gewinnen sowie mit anderen {\"u}ber meine Interessen reden.
 
-\sect{Pers{\"o}nliche Daten}
+\begin{figure}[htb!]
+  \begin{minipage}{0.7\textwidth}
+    \sect{Pers{\"o}nliche Daten}
+    \vspace{7pt}
 
-\textbf{Geburt} \hfill{27.09.2003} \, \\
-\sep
-\textbf{Email} \hfill{nicholas\_schweitzer@mis-munich.de} \, \\
-\sep
-\textbf{Handy / Festnetz} \hfill{0176 8053 1248 / 08171 238 1130} \, \\
-\sep
-\textbf{Adresse} \hfill{Am Haken 2, 82538 Geretsried \, }\\
-\sep
+    \textbf{Geburt} \hfill{27.09.2003} \, \\
+    \sep
+    \vspace{7pt}
+    \textbf{Email} \hfill{nicholas\_schweitzer@mis-munich.de} \, \\
+    \sep
+    \vspace{7pt}
+    \textbf{Handy / Festnetz} \hfill{0176 8053 1248 / 08171 238 1130} \, \\
+    \sep
+    \vspace{7pt}
+    \textbf{Adresse} \hfill{Am Haken 2, 82538 Geretsried \, }\\
+    \sep
+    \vspace{7pt}
+  \end{minipage}
+  \begin{minipage}{0.2\textwidth}
+    \includegraphics[trim=-20 60 0 0mm, scale=0.5]{cat.jpg}
+  \end{minipage}
+\end{figure}
+\vspace{-30pt}
 
 \sect{Profil}
 
 \textbf{Sch{\"u}ler der 10. Klasse an der Munich International School; angestrebter
   abschluss: International Baccalaureate im Juni 2022}
 
-\begin{itemize}
+\begin{itemize}[leftmargin=*]
   \itemsep0pt
 
 \item Schulischer Schwerpunkt in Mathematik und Physik mit Kursen in \textit{\glqq
   Advanced Mathematics\grqq} und \textit{\glqq Extended Science\grqq}
 
-\item Programmieren seit 7 Jahren als Hobby mit fortgeschrittenen Kentnissen in
+\item Programmieren seit 7 Jahren als Hobby mit fortgeschrittenen Kenntnissen in
   Python und Rust
 
 \item Musik und Sport: Gitarre seit 10 Jahren als intensives Hobby,
@@ -134,14 +150,16 @@
 \textbf{Sprachen} \hfill{Englisch, Muttersprache, und Deutsch, flie{\ss}end} \\
 \hspace*{\fill}Spanisch set 4 Jahren als Fremdsprache \\
 \sep
+\vspace{12pt}
 
 \textbf{Programmiersprachen} \\
 \textit{Sehr gut} \hfill{Python, Rust} \\
 \sep
 \textit{Gut} \hfill{C/C++, Shell (bash/zsh), Lua, \LaTeX} \\
 \sep
-\textit{Grundkentnisse} \hfill{Lisp, Perl, Intel-Assembly (NASM), HTML} \\
+\textit{Grundkenntnisse} \hfill{Lisp, Perl, Intel-Assembly (NASM), HTML} \\
 \sep
+\vspace{12pt}
 
 {
   \small
@@ -150,14 +168,15 @@
   \hspace*{\fill} Window-Manager Konfiguration, Lua:
   \link{github.com/cynic64/awesome-configs} \\
 }
-
 \sep
+\vspace{12pt}
 
 \textbf{Software Anwendungen} \\
 \textit{Sehr gut} \hfill{MS Word, Emacs und Vi Editoren, Blender 3D Modelling Software} \\
 \sep
 \textit{Gut} \hfill{MS Excel, MS PowerPoint, Git, Linux-Administration} \\
 \sep
+\vspace{12pt}
 
 \sect{Mitgliedschaften}
 
